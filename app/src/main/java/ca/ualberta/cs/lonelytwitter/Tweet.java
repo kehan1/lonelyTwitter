@@ -5,22 +5,29 @@ package ca.ualberta.cs.lonelytwitter;
  */
 
 import java.util.Date;
+import java.util.ArrayList;
 
 public abstract class Tweet implements Tweetable{
 
     private String message;
     private Date date;
 
-    Tweet(){
 
-    }
     public Tweet(String message){
         this.message = message;
+        this.date = new Date();
     }
 
     public Tweet(String message, Date date){
         this.message = message;
         this.date = date;
+    }
+
+    public class moodlist{
+        public static void main(String mood) {
+            ArrayList mood = new ArrayList();
+            mood.add(mood);
+        }
     }
 
     public Date getDate(){
