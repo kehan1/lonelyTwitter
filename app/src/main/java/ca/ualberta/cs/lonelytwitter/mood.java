@@ -26,4 +26,6 @@ public abstract class mood {
         this.date = date;
     }
 
+    public abstract String getmood();
+
 }
